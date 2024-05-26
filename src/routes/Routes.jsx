@@ -8,12 +8,18 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import DashboadLauouts from "../layouts/DashboadLauouts";
 import PrivateRoutes from "./PrivateRoutes";
+import AllDashboardProduct from "../components/Dashboard/AllDashboardProduct";
+import BaseDashboard from "../components/Dashboard/BaseDashboard";
+import ErrorElement from "../components/Shared/ErrorElement";
+import AddProducts from "../components/Dashboard/AddProducts";
+import EditProducts from "../components/Dashboard/EditProducts";
 
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayout/>,
+      errorElement:<ErrorElement/>,
       children:[
         {
             path:'/',
@@ -42,7 +48,26 @@ const router = createBrowserRouter([
     
       element:<PrivateRoutes>
         <DashboadLauouts/>
-      </PrivateRoutes>
+      </PrivateRoutes>,
+      errorElement:<ErrorElement/>,
+      children:[
+        {
+          index:true,
+          element:<BaseDashboard/>
+        },
+        {
+          path:"all-products",
+          element:<AllDashboardProduct/>
+        },
+        {
+          path:"add-products",
+          element:<AddProducts/>
+        },
+        {
+          path:"edit-products/:id",
+          element:<EditProducts/>
+        },
+      ]
     }
   ]);
 

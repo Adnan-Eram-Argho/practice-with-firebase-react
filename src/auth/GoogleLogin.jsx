@@ -9,7 +9,7 @@ function GoogleLogin() {
     }
   return (
     <div>
-       <button onClick={handleGoogleLogin} className="bg-orange-400 px-5 py-3 w-full rounded-lg">login with google</button>
+       <button onClick={handleGoogleLogin} className="bg-orange-400 px-5 py-3 w-full rounded-lg text-black">login with google</button>
     </div>
   )
 }

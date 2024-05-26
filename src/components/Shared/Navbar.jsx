@@ -29,7 +29,7 @@ function Navbar() {
                         
                     </ul>
                 </div>
-                <Link to={'/'} className="btn btn-ghost text-xl">Argho</Link>
+                <Link to={'/'} className="btn btn-ghost text-xl">Harmonic Haven</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

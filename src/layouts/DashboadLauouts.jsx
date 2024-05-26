@@ -1,5 +1,6 @@
 import { useSignOut } from "react-firebase-hooks/auth";
 import auth from "../firebase/firebase.config";
+import { Link, Outlet } from "react-router-dom";
 
 function DashboadLauouts() {
   const [signOut] = useSignOut(auth);
@@ -17,6 +18,7 @@ function DashboadLauouts() {
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col items-center justify-center">
           {/* Page content here */}
+          <Outlet/>
           <label
             htmlFor="my-drawer-2"
             className="btn btn-primary drawer-button lg:hidden"
@@ -35,14 +37,29 @@ function DashboadLauouts() {
            
               <div>
                 <li>
-                  <a>Sidebar Item 1</a>
+                <Link to={'/dashboard'}>
+                 Dashboard
+                </Link>
                 </li>
                 <li>
-                  <a>Sidebar Item 2</a>
+                <Link to={'/dashboard/all-products'}>
+                 All product
+                </Link>
                 </li>
+                <li>
+                <Link to={'/dashboard/add-products'}>
+                 Add product
+                </Link>
+                </li>
+                
+                
               </div>
               <div>
-                <button className="btn" onClick={handleSignOut}>
+                <Link to={'/'} className="btn bg-base-300 mr-5" >
+                  
+                  Home
+                </Link>
+                <button className="btn btn-error" onClick={handleSignOut}>
                   
                   sign out
                 </button>

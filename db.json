@@ -1,0 +1,172 @@
+{
+  "headphone": [
+    {
+      "id": "1",
+      "title": "Noise Cancelling Over-Ear Headphones",
+      "brand": "Bose",
+      "price": "399.99",
+      "description": "High-quality noise-cancelling headphones with superior sound and comfort.",
+      "image": "https://www.freepik.com/free-photo/stylish-headphones_18548253.htm"
+    },
+    {
+      "id": "2",
+      "title": "Wireless Bluetooth Headphones",
+      "brand": "Sony",
+      "price": 199.99,
+      "description": "Wireless headphones with deep bass and long battery life.",
+      "image": "https://www.freepik.com/free-photo/black-wireless-headphones_13282916.htm"
+    },
+    {
+      "id": "3",
+      "title": "In-Ear Sports Headphones",
+      "brand": "JBL",
+      "price": 49.99,
+      "description": "Sweat-proof in-ear headphones designed for active lifestyles.",
+      "image": "https://www.freepik.com/free-photo/close-up-headphones_11937826.htm"
+    },
+    {
+      "id": "4",
+      "title": "Studio Monitor Headphones",
+      "brand": "Audio-Technica",
+      "price": 149.99,
+      "description": "Professional studio headphones with excellent sound clarity.",
+      "image": "https://www.freepik.com/free-photo/headphones-synthetic-leather-headbands_8058676.htm"
+    },
+    {
+      "id": "5",
+      "title": "Gaming Headset with Microphone",
+      "brand": "Razer",
+      "price": 79.99,
+      "description": "High-performance gaming headset with surround sound and noise-cancelling mic.",
+      "image": "https://www.freepik.com/free-photo/black-headphones-with-cable_18559611.htm"
+    },
+    {
+      "id": "6",
+      "title": "True Wireless Earbuds",
+      "brand": "Apple",
+      "price": 249.99,
+      "description": "Compact and comfortable true wireless earbuds with active noise cancellation.",
+      "image": "https://www.freepik.com/free-photo/tws-bluetooth-headset_16126874.htm"
+    },
+    {
+      "id": "7",
+      "title": "Foldable On-Ear Headphones",
+      "brand": "Beats",
+      "price": 129.99,
+      "description": "Stylish and portable on-ear headphones with rich sound quality.",
+      "image": "https://www.freepik.com/free-photo/red-headphones_17145739.htm"
+    },
+    {
+      "id": "8",
+      "title": "Wireless Neckband Headphones",
+      "brand": "LG",
+      "price": 89.99,
+      "description": "Comfortable wireless neckband headphones with long battery life.",
+      "image": "https://www.freepik.com/free-photo/bluetooth-headset-white-background_11925306.htm"
+    },
+    {
+      "id": "9",
+      "title": "Noise Cancelling In-Ear Headphones",
+      "brand": "Sennheiser",
+      "price": 129.99,
+      "description": "High-fidelity in-ear headphones with active noise cancellation.",
+      "image": "https://www.freepik.com/free-photo/white-wireless-headphones_12682089.htm"
+    },
+    {
+      "id": "10",
+      "title": "Over-Ear Bluetooth Headphones",
+      "brand": "Philips",
+      "price": 79.99,
+      "description": "Comfortable over-ear Bluetooth headphones with powerful bass.",
+      "image": "https://www.freepik.com/free-photo/headphones-with-white-background_13283726.htm"
+    },
+    {
+      "id": "11",
+      "title": "Hi-Fi Open-Back Headphones",
+      "brand": "Grado",
+      "price": 349.99,
+      "description": "Premium open-back headphones with exceptional audio clarity.",
+      "image": "https://www.freepik.com/free-photo/retro-styled-headphones_10919684.htm"
+    },
+    {
+      "id": "12",
+      "title": "Sports Bluetooth Earphones",
+      "brand": "Anker",
+      "price": 39.99,
+      "description": "Durable and sweat-resistant earphones perfect for workouts.",
+      "image": "https://www.freepik.com/free-photo/stereo-headphones-with-white-wire_13282790.htm"
+    },
+    {
+      "id": "13",
+      "title": "Luxury Over-Ear Headphones",
+      "brand": "Bang & Olufsen",
+      "price": 499.99,
+      "description": "Luxurious over-ear headphones with immersive sound experience.",
+      "image": "https://www.freepik.com/free-photo/vintage-headphones-wood-table_10492240.htm"
+    },
+    {
+      "id": "14",
+      "title": "Active Noise Cancelling Wireless Headphones",
+      "brand": "Samsung",
+      "price": 229.99,
+      "description": "Advanced noise-cancelling headphones with wireless convenience.",
+      "image": "https://www.freepik.com/free-photo/modern-wireless-headphones_19027995.htm"
+    },
+    {
+      "id": "15",
+      "title": "Budget Over-Ear Headphones",
+      "brand": "Panasonic",
+      "price": 29.99,
+      "description": "Affordable over-ear headphones with balanced sound quality.",
+      "image": "https://www.freepik.com/free-photo/gray-headphones_13282960.htm"
+    },
+    {
+      "id": "16",
+      "title": "Noise Cancelling Wireless Earbuds",
+      "brand": "Huawei",
+      "price": 179.99,
+      "description": "Compact wireless earbuds with active noise cancellation and high-quality audio.",
+      "image": "https://www.freepik.com/free-photo/black-earbuds-with-box_13348014.htm"
+    },
+    {
+      "id": "17",
+      "title": "Wireless Gaming Headset",
+      "brand": "Logitech",
+      "price": 149.99,
+      "description": "Wireless gaming headset with surround sound and a clear microphone.",
+      "image": "https://www.freepik.com/free-photo/modern-wireless-gaming-headphones_12091315.htm"
+    },
+    {
+      "id": "18",
+      "title": "Comfortable Over-Ear Headphones",
+      "brand": "Skullcandy",
+      "price": 59.99,
+      "description": "Comfortable over-ear headphones with powerful bass and good sound isolation.",
+      "image": "https://www.freepik.com/free-photo/red-wireless-headphones_16630858.htm"
+    },
+    {
+      "id": "19",
+      "title": "Wireless Over-Ear Headphones",
+      "brand": "Pioneer",
+      "price": 99.99,
+      "description": "Wireless over-ear headphones with clear sound and comfortable fit.",
+      "image": "https://www.freepik.com/free-photo/headphones-with-wire-white-background_13282822.htm"
+    },
+    {
+      "id": "20",
+      "title": "Premium Wireless Earbuds",
+      "brand": "Sennheiser",
+      "price": 299.99,
+      "description": "High-end wireless earbuds with superior sound quality and noise cancellation.",
+      "image": "https://www.freepik.com/free-photo/wireless-earphones-headset_12829541.htm"
+    },
+    {
+      "id": "21",
+      "title": "Premium Wireless Earbuds",
+      "brand": "Sennheiser",
+      "price": 299.99,
+      "description": "High-end wireless earbuds with superior sound quality and noise cancellation.",
+      "image": "https://www.freepik.com/free-photo/wireless-earphones-headset_12829541.htm"
+    }
+  ]
+}

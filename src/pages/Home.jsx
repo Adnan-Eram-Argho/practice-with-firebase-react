@@ -1,16 +1,15 @@
-import Countdown from "../components/home/Countdown"
+
 import Diff from "../components/home/Diff"
-import Phone from "../components/home/Phone"
-import Window from "../components/home/Window"
+import HomeProducs from "../components/home/HomeProducs"
+
 
 
 function Home() {
   return (
     <div>
-       <Countdown/>
+      
        <Diff/>
-       <Window/>
-       <Phone/>
+      <HomeProducs/>
     </div>
   )
 }
