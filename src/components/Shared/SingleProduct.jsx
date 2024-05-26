@@ -5,8 +5,8 @@ function SingleProduct({headphone}) {
     console.log(headphone)
     const des=headphone.description.slice(0,30);
   return (
-    <div className="h-[600px]">
-<div className="card w-96 bg-base-100 shadow-xl">
+    
+<div className="card w-80 h-[600px] bg-base-100 shadow-xl">
   <figure><img src={headphone?.image} alt="Shoes" /></figure>
   <div className="card-body">
     {
@@ -33,7 +33,7 @@ function SingleProduct({headphone}) {
     </div>
   </div>
 </div>
-    </div>
+    
   )
 }
 
