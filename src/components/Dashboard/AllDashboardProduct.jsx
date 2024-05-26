@@ -21,7 +21,7 @@ function AllDashboardProduct() {
   return (
     
       <div className="overflow-x-auto w-full">
-        
+        <h1 className="text-center my-6 text-4xl">All product</h1>
   <table className="table table-zebra">
     {/* head */}
     <thead>

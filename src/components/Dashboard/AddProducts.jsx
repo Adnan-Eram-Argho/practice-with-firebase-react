@@ -41,14 +41,35 @@ function AddProducts() {
   
   return (
     <div className="w-full">
+      <h1 className="text-center my-3 text-4xl">Add product</h1>
     <form className="w-10/12 m-auto" onSubmit={handleEdit}>
-      <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="id" placeholder="id" />
-      <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="title" placeholder="Title" />
-      <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="brand" placeholder="brand" />
-      <input type="number" className="w-full p-5 border border-base-content rounded-lg my-5"  name="price" placeholder="price" />
-      <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="des" placeholder="description" />
-      <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="image"  placeholder="image_url"/>
-      <input type="submit" value={"Add Product"} className="w-full p-5 border border-base-content rounded-lg btn bg-neutral-content my-5"/>
+
+    <label className="text-2xl">Id:</label>
+      <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="id" placeholder="id" />
+
+
+      <label className="text-2xl">Title:</label>
+      <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="title" placeholder="Title" />
+
+
+      <label className="text-2xl">Brand:</label>
+      <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="brand" placeholder="brand" />
+
+
+      <label className="text-2xl">Price:</label>
+      <input type="number" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="price" placeholder="price" />
+
+
+      <label className="text-2xl">Description:</label>
+      <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="des" placeholder="description" />
+
+
+      <label className="text-2xl">Image:</label>
+      <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="image"  placeholder="image_url"/>
+
+
+
+      <input type="submit" value={"Add Product"} className="w-full p-5 border border-base-content rounded-lg btn btn-base my-3"/>
     </form>
   </div>
   )

@@ -19,6 +19,7 @@ function EditProducts() {
         const price = form.price.value;
         const description = form.des.value;
         const image = form.image.value;
+        
         const newData = {id,title,brand,price,description,image};
 
          //patch
@@ -59,13 +60,19 @@ function EditProducts() {
 
   return (
     <div className="w-full">
+      <h1 className="text-center my-3 text-4xl">Edit product</h1>
       <form className="w-10/12 m-auto" onSubmit={handleEdit}>
-        <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="title"  defaultValue={headphone?.title}/>
-        <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="brand"  defaultValue={headphone?.brand}/>
-        <input type="number" className="w-full p-5 border border-base-content rounded-lg my-5"  name="price"  defaultValue={headphone?.price}/>
-        <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="des"  defaultValue={headphone?.description}/>
-        <input type="text" className="w-full p-5 border border-base-content rounded-lg my-5"  name="image"  defaultValue={headphone?.image}/>
-        <input type="submit" value={"edit product"} className="w-full p-5 border border-base-content rounded-lg btn bg-neutral-content my-5"/>
+        <label className="text-2xl">Title:</label>
+        <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="title"  defaultValue={headphone?.title}/>
+        <label className="text-2xl">Brand:</label>
+        <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="brand"  defaultValue={headphone?.brand}/>
+        <label className="text-2xl">Price:</label>
+        <input type="number" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="price"  defaultValue={headphone?.price}/>
+        <label className="text-2xl">Description:</label>
+        <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="des"  defaultValue={headphone?.description}/>
+        <label className="text-2xl">Image:</label>
+        <input type="text" className="w-full p-5 border border-base-content rounded-lg mb-3"  name="image"  defaultValue={headphone?.image}/>
+        <input type="submit" value={"edit product"} className="w-full p-5 border border-base-content rounded-lg btn btn-base my-3"/>
       </form>
     </div>
   )
